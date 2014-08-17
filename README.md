@@ -11,14 +11,14 @@ that case, a simple CRUD service).
 
 ## Services
 
-* *UserService* - Provides a basic User model.  NOT YET IMPLEMENTED
-* *LoginService* - Provides a login page and tracks sessions.  NOT YET
+* **UserService** - Provides a basic User model.  NOT YET IMPLEMENTED
+* **LoginService** - Provides a login page and tracks sessions.  NOT YET
     IMPLEMENTED
-* *PermissionService* - Tracks authorization data.  NOT YET IMPLEMENTED, LIKELY
+* **PermissionService** - Tracks authorization data.  NOT YET IMPLEMENTED, LIKELY
     TO REQUIRE CUSTOMIZATION
-* *ThingService* - A simple CRUD-based service.  NOT YET IMPLEMENTED, NOT
+* **ThingService** - A simple CRUD-based service.  NOT YET IMPLEMENTED, NOT
     USABLE AS-IS
-* *BillingService* - A more complex service with a local User model, several
+* **BillingService** - A more complex service with a local User model, several
     resources, and moderately complex permissions.  NOT YET IMPLEMENTED, NOT
     USABLE AS-IS
 
