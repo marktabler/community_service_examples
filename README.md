@@ -6,7 +6,7 @@ This is a set of services based on the Community Service gem for service
 discovery and communication.  Though they are called "Example" services, many
 of them could be taken as-is and dropped in to production, though it is likely
 that you will end up wanting to customize them down the road.  Others, such as
-the ThingService, are simply meant to illustrate common service patterns (in
+the WiggleService, are simply meant to illustrate common service patterns (in
 that case, a simple CRUD service).
 
 ## Services
@@ -16,11 +16,9 @@ that case, a simple CRUD service).
     IMPLEMENTED
 * **PermissionService** - Tracks authorization data.  NOT YET IMPLEMENTED, LIKELY
     TO REQUIRE CUSTOMIZATION
-* **ThingService** - A simple CRUD-based service.  NOT YET IMPLEMENTED, NOT
-    USABLE AS-IS
-* **BillingService** - A more complex service with a local User model, several
-    resources, and moderately complex permissions.  NOT YET IMPLEMENTED, NOT
-    USABLE AS-IS
+* **WiggleService** - A simple CRUD-based service.
+
+Each service also has a corresponding client gem (eg, "wiggle_client").
 
 ## Creating A New Service
 
